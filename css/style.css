@@ -122,11 +122,10 @@ a {
     background-color: #ccc;
 }
 
-.header__image-container {
-    margin-top: 10px;
-
-    height: 120px;
-    background-color: #ccc;
+.header__middle-title {
+    padding: 2rem 0;
+    font-size: 2rem;
+    text-align: center;
 }
 
 .lang-select {
@@ -153,6 +152,7 @@ a {
 
     padding: 5px 10px;
     text-align: center;
+    text-decoration: underline;
 }
 
 /* ====== About section Styles ====== */
@@ -252,6 +252,22 @@ a {
 .toggle-button {
     display: none;
 }
+
+.redactor {
+    padding: 2rem 0;
+}
+
+.redactor__title {
+    font-weight: 500;
+    text-align: center;
+}
+
+.redactor__content {
+    margin-top: 1.2rem;
+    line-height: 2;
+}
+
+
 
 
 /* ====== Media queries ====== */
@@ -373,6 +389,10 @@ a {
         font-size: 1.2rem;
     }
 
+    .header__middle-title {
+        font-size: 1.4rem;
+    }
+
     .about__image-container {
         width: 35%;
         height: 45vh;
@@ -396,7 +416,7 @@ a {
 
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
     .container {
         padding: 0 15px;
     }
